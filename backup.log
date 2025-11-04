@@ -1,0 +1,78 @@
+[2025-11-03 15:50:34] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:50:35] INFO: Created lockfile /tmp/backup_system.lock (pid 663)
+[2025-11-03 15:50:35] INFO: Created backup destination ./backups
+[2025-11-03 15:50:35] INFO: Starting backup of /home/user/my_documents -> ./backups/backup-2025-11-03-155035.tar.gz
+[2025-11-03 15:50:35] ERROR: Error: Source folder not found: /home/user/my_documents
+[2025-11-03 15:50:35] INFO: Removed lockfile /tmp/backup_system.lock
+[2025-11-03 15:50:36] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:50:36] INFO: Dry-run: would create lockfile /tmp/backup_system.lock
+[2025-11-03 15:50:37] INFO: Starting backup of /home/user/my_documents -> ./backups/backup-2025-11-03-155036.tar.gz
+[2025-11-03 15:50:37] ERROR: Error: Source folder not found: /home/user/my_documents
+[2025-11-03 15:50:37] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:50:38] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:50:38] INFO: Created lockfile /tmp/backup_system.lock (pid 755)
+[2025-11-03 15:50:38] ERROR: Restore file not found: ./backups/backup-2024-11-03-143015.tar.gz
+[2025-11-03 15:50:39] INFO: Removed lockfile /tmp/backup_system.lock
+[2025-11-03 15:51:53] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:51:54] INFO: Dry-run: would create lockfile /tmp/backup_system.lock
+[2025-11-03 15:51:54] INFO: Starting backup of /c/Users/my/bash practice/sample_data -> ./backups/backup-2025-11-03-155154.tar.gz
+[2025-11-03 15:51:54] INFO: Dry-run: would run: tar -czf ./backups/backup-2025-11-03-155154.tar.gz --exclude=.git --exclude=node_modules --exclude=.cache -C /c/Users/my/bash practice sample_data
+[2025-11-03 15:51:54] INFO: Dry-run: would write checksum to ./backups/backup-2025-11-03-155154.tar.gz.sha256 using sha256sum
+[2025-11-03 15:51:54] INFO: Starting rotation in ./backups (daily=7 weekly=4 monthly=3)
+[2025-11-03 15:51:55] INFO: Rotation complete
+[2025-11-03 15:51:55] INFO: Done.
+[2025-11-03 15:52:15] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:52:15] INFO: Created lockfile /tmp/backup_system.lock (pid 896)
+[2025-11-03 15:52:15] INFO: Starting backup of /c/Users/my/bash practice/sample_data -> ./backups/backup-2025-11-03-155215.tar.gz
+[2025-11-03 15:52:16] SUCCESS: Backup created: backup-2025-11-03-155215.tar.gz
+[2025-11-03 15:52:16] INFO: Checksum (sha256) saved to backup-2025-11-03-155215.tar.gz.sha256
+[2025-11-03 15:52:16] INFO: Verifying ./backups/backup-2025-11-03-155215.tar.gz
+[2025-11-03 15:52:16] SUCCESS: Verification successful for backup-2025-11-03-155215.tar.gz
+[2025-11-03 15:52:17] INFO: Starting rotation in ./backups (daily=7 weekly=4 monthly=3)
+[2025-11-03 15:52:17] INFO: Removed lockfile /tmp/backup_system.lock
+[2025-11-03 15:52:27] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:52:27] INFO: Created lockfile /tmp/backup_system.lock (pid 984)
+[2025-11-03 15:52:28] INFO: Starting backup of /c/Users/my/bash practice/sample_data -> ./backups/backup-2025-11-03-155228.tar.gz
+[2025-11-03 15:52:28] SUCCESS: Backup created: backup-2025-11-03-155228.tar.gz
+[2025-11-03 15:52:28] INFO: Checksum (sha256) saved to backup-2025-11-03-155228.tar.gz.sha256
+[2025-11-03 15:52:28] INFO: Verifying ./backups/backup-2025-11-03-155228.tar.gz
+[2025-11-03 15:52:29] SUCCESS: Verification successful for backup-2025-11-03-155228.tar.gz
+[2025-11-03 15:52:29] INFO: Starting rotation in ./backups (daily=7 weekly=4 monthly=3)
+[2025-11-03 15:52:30] INFO: Removed lockfile /tmp/backup_system.lock
+[2025-11-03 15:52:31] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:52:31] INFO: Created lockfile /tmp/backup_system.lock (pid 1067)
+[2025-11-03 15:52:32] INFO: Starting backup of /c/Users/my/bash practice/sample_data -> ./backups/backup-2025-11-03-155232.tar.gz
+[2025-11-03 15:52:32] SUCCESS: Backup created: backup-2025-11-03-155232.tar.gz
+[2025-11-03 15:52:32] INFO: Checksum (sha256) saved to backup-2025-11-03-155232.tar.gz.sha256
+[2025-11-03 15:52:32] INFO: Verifying ./backups/backup-2025-11-03-155232.tar.gz
+[2025-11-03 15:52:33] SUCCESS: Verification successful for backup-2025-11-03-155232.tar.gz
+[2025-11-03 15:52:33] INFO: Starting rotation in ./backups (daily=7 weekly=4 monthly=3)
+[2025-11-03 15:52:34] INFO: Removed lockfile /tmp/backup_system.lock
+[2025-11-03 15:52:36] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:52:36] INFO: Created lockfile /tmp/backup_system.lock (pid 1150)
+[2025-11-03 15:52:36] INFO: Starting backup of /c/Users/my/bash practice/sample_data -> ./backups/backup-2025-11-03-155236.tar.gz
+[2025-11-03 15:52:37] SUCCESS: Backup created: backup-2025-11-03-155236.tar.gz
+[2025-11-03 15:52:37] INFO: Checksum (sha256) saved to backup-2025-11-03-155236.tar.gz.sha256
+[2025-11-03 15:52:37] INFO: Verifying ./backups/backup-2025-11-03-155236.tar.gz
+[2025-11-03 15:52:38] SUCCESS: Verification successful for backup-2025-11-03-155236.tar.gz
+[2025-11-03 15:52:38] INFO: Starting rotation in ./backups (daily=7 weekly=4 monthly=3)
+[2025-11-03 15:52:38] INFO: Removed lockfile /tmp/backup_system.lock
+[2025-11-03 15:52:42] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:53:01] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 15:53:01] INFO: Created lockfile /tmp/backup_system.lock (pid 1260)
+[2025-11-03 15:53:01] ERROR: Restore file not found: ./backups/backup-2025-11-03-143015.tar.gz
+[2025-11-03 15:53:01] INFO: Removed lockfile /tmp/backup_system.lock
+[2025-11-03 17:55:54] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 17:55:54] INFO: Created lockfile /tmp/backup_system.lock (pid 1382)
+[2025-11-03 17:55:54] INFO: Starting backup of /home/user/my_documents -> ./backups/backup-2025-11-03-175554.tar.gz
+[2025-11-03 17:55:54] ERROR: Error: Source folder not found: /home/user/my_documents
+[2025-11-03 17:55:54] INFO: Removed lockfile /tmp/backup_system.lock
+[2025-11-03 17:55:55] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 17:55:55] INFO: Dry-run: would create lockfile /tmp/backup_system.lock
+[2025-11-03 17:55:56] INFO: Starting backup of /home/user/my_documents -> ./backups/backup-2025-11-03-175555.tar.gz
+[2025-11-03 17:55:56] ERROR: Error: Source folder not found: /home/user/my_documents
+[2025-11-03 17:55:56] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 17:55:57] INFO: Loaded config from /c/Users/my/bash practice/backup.config
+[2025-11-03 17:55:57] INFO: Created lockfile /tmp/backup_system.lock (pid 1470)
+[2025-11-03 17:55:58] ERROR: Restore file not found: ./backups/backup-2024-11-03-143015.tar.gz
+[2025-11-03 17:55:58] INFO: Removed lockfile /tmp/backup_system.lock
